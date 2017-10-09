@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BaoNhanh</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+    <string name="night_mode">Chế độ ban đêm</string>
+    <string name= "cant_load_content">Không Thể Hiển Thị Nội Dung</string>
+    <string name="back_to_exit">Ấn trở lại lần nữa để thoát</string>
+    <string name="fontsize">Cỡ chữ</string>
+    <string name="Version">Phiên Bản: </string>
+    <string name="currentversion">1.0</string>
+    <string name="versionName">Phiên Bản: 1.0</string>
+    <string name="infoapp">Thông tin ứng dụng</string>
+    <string name="BaoNhanh">Báo Nhanh</string>
+    <string-array name="titleNewsArray">
+        <item>Tin Chính</item>
+        <item>Chuyên mục</item>
+    </string-array>
+    <string-array name="listArray">
+        <item>Headings</item>
+        <item>Headings and Details</item>
+        <item>All Data</item>
+    </string-array>
+
+</resources>

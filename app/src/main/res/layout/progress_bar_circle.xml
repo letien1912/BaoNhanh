@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.github.rahatarmanahmed.cpv.CircularProgressView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/progressbar_circle"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    app:cpv_animAutostart="true"
+    app:cpv_indeterminate="true" />

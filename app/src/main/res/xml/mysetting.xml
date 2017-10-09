@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"  >
+    <PreferenceCategory
+        android:key="cat01"
+        android:title="@string/fontsize">
+        <com.SettingPreferences.SeekBarPreferences
+            android:key="seek"
+            android:title="@string/fontsize"
+            android:defaultValue="45"
+            android:summary="customize text size"/>
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory-->
+        <!--android:key="cat02"-->
+        <!--android:title="@string/night_mode">-->
+        <!--<SwitchPreference-->
+            <!--android:key="switchpref"-->
+            <!--android:title="@string/night_mode"/>-->
+    <!--</PreferenceCategory>-->
+
+    <PreferenceCategory
+        android:key="nokey"
+        android:title="Thông tin ứng dụng">
+        <Preference
+            android:title="@string/Version"
+            android:summary="@string/currentversion">
+        </Preference>
+
+        <Preference
+            android:title="@string/infoapp"
+            android:summary="Báo Nhanh được tổng hợp từ các loại báo điện tử tại Việt Nam">
+
+        </Preference>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

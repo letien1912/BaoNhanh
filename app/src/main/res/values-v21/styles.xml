@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+        <style name="Theme.Base" parent="AlertDialog.AppCompat">
+            <item name="colorPrimary">@color/colorPrimaryColor</item>
+            <item name="colorPrimaryDark">@color/colorDarkPrimaryColor</item>
+            <item name="android:windowActionBar">false</item>
+            <item name="android:textColor">@color/md_white_1000</item>
+            <item name="android:windowNoTitle">true</item>
+            <item name="android:windowBackground">@color/colorDividerColor</item>
+        </style>
+
+    <style name="MaterialAnimations" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowContentTransitions">true</item>
+
+    </style>
+
+    <style name="MaterialAnimations.TextAppearance.Title" parent="android:TextAppearance.Material.Title">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/colorDarkPrimaryColor</item>
+        <item name="android:colorAccent">@color/md_pink_400</item>
+        <item name="android:textColorPrimary">@color/colorLightPrimaryColor</item>
+        <item name="android:textColorPrimaryInverse">@color/colorLightPrimaryColor</item>
+        <item name="android:statusBarColor">@color/colorStatusBarColor</item>
+        <item name="android:windowBackground">@color/colorLightPrimaryColor</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <!--<item name="android:titleTextAppearance">@style/MaterialAnimations.TextAppearance.Title</item>-->
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/md_deep_orange_100</item>
+        <item name="colorPrimaryDark">@color/md_deep_orange_100</item>
+        <item name="android:colorAccent">@color/md_deep_orange_100</item>
+        <item name="android:textColorPrimary">@color/md_deep_orange_100</item>
+        <item name="android:textColorPrimaryInverse">@color/md_deep_orange_100</item>
+        <item name="android:statusBarColor">@color/md_deep_orange_100</item>
+        <item name="android:windowBackground">@color/md_deep_orange_100</item>
+        <item name="android:textColor">@color/md_deep_orange_100</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:titleTextAppearance">@style/MaterialAnimations.TextAppearance.Title
+        </item>
+    </style>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/check01"
+            android:checked="false"
+            android:icon="@drawable/express_icon"
+            android:title="First" />
+        <item
+            android:id="@+id/check02"
+            android:checked="false"
+            android:icon="@drawable/ic_one"
+            android:title="Second" />
+        <item
+            android:id="@+id/check03"
+            android:checked="false"
+            android:icon="@drawable/ic_one"
+            android:title="Third" />
+    </group>
+
+</menu>
